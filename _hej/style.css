@@ -9437,6 +9437,15 @@ main {
     max-width: 250px; 
   }
 }
+@media all and (max-width: 730px) {
+  .c--footer-a__bd__media svg {
+    max-width: 200px; 
+  }
+  .c--footer-a__bd__media {
+    margin-top: -8em;
+    margin-bottom: -7em;
+  }
+}
 @media all and (max-width: 580px) {
   .c--footer-a__bd__media svg {
     max-width: 150px; 
