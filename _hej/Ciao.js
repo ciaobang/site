@@ -9840,33 +9840,39 @@ if(acceptDecline){
 // ------------- Cursor following mouse directions --------------//
 
 const cursor = document.querySelector('.cursor');
-gsap.set(cursor, {
-  xPercent: -50,
-  yPercent: -50,
-  x: 0,
-  y: 0,
-  transformOrigin: "center center"
-});
+const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
 
-gsap.set(".rotate", {transformOrigin: "44.6% 48.2%"});
-const rotateTween = gsap.to(".rotate", {duration: 0.1, paused: true});
-const xTo = gsap.quickTo(cursor, "x", {duration: 0.1});
-const yTo = gsap.quickTo(cursor, "y", {duration: 0.1});
-const RAD2DEG = 180 / Math.PI;
-let x_cursor = 0, y_cursor = 0;
+if (isTouchDevice) {
+  cursor.style.display = 'none';
+} else {
+  gsap.set(cursor, {
+    xPercent: -50,
+    yPercent: -50,
+    x: 0,
+    y: 0,
+    transformOrigin: "center center"
+  });
 
-document.addEventListener("mousemove", (e) => {
-  let yDif = e.clientY - y_cursor,
-      xDif = e.clientX - x_cursor;
-  xTo(e.clientX);
-  yTo(e.clientY);
-  if (Math.abs(xDif) > 3 || Math.abs(yDif) > 3) {
-    x_cursor = e.clientX;
-    y_cursor = e.clientY;
-    rotateTween.vars.rotation = (Math.atan2(yDif, xDif) * RAD2DEG - 40) + "_short";
-    rotateTween.invalidate().restart();
-  }
-});
+  gsap.set(".rotate", {transformOrigin: "44.6% 48.2%"});
+  const rotateTween = gsap.to(".rotate", {duration: 0.1, paused: true});
+  const xTo = gsap.quickTo(cursor, "x", {duration: 0.1});
+  const yTo = gsap.quickTo(cursor, "y", {duration: 0.1});
+  const RAD2DEG = 180 / Math.PI;
+  let x_cursor = 0, y_cursor = 0;
+
+  document.addEventListener("mousemove", (e) => {
+    let yDif = e.clientY - y_cursor,
+        xDif = e.clientX - x_cursor;
+    xTo(e.clientX);
+    yTo(e.clientY);
+    if (Math.abs(xDif) > 3 || Math.abs(yDif) > 3) {
+      x_cursor = e.clientX;
+      y_cursor = e.clientY;
+      rotateTween.vars.rotation = (Math.atan2(yDif, xDif) * RAD2DEG - 40) + "_short";
+      rotateTween.invalidate().restart();
+    }
+  });
+}
 
 let hideCursorTimeout;
 let isCursorHidden = false;
@@ -9915,5 +9921,3 @@ observer.observe(document.body, {
   childList: true,
   subtree: true,
 });
-
-
