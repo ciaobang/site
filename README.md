@@ -55,7 +55,7 @@ Here are just a few ways you can use the Ciao! platform to accelerate your proje
 We’re always excited to hear from our community and partners! If you have any questions or would like to collaborate, feel free to get in touch:
 
 - Website: [ciaobang.com](https://ciaobang.com/)
-- Linkedln: [ciaopuntoesclamativo](https://www.linkedin.com/company/ciaopuntoesclamativo/)
-- Instagram: @ciaopuntoesclamativo
-- Slack:[ciaobang](https://join.slack.com/t/ciao-r355502/shared_invite/zt-2qtz5modx-5GW_Nk3ZbHcwufnUiODhig)
+- Linkedln: [@ciaopuntoesclamativo](https://www.linkedin.com/company/ciaopuntoesclamativo/)
+- Instagram: [@ciaopuntoesclamativo](https://www.instagram.com/ciaopuntoesclamativo/)
+- Slack:[@ciaobang](https://join.slack.com/t/ciao-r355502/shared_invite/zt-2qtz5modx-5GW_Nk3ZbHcwufnUiODhig)
 - Email: info@ciaobang.com
