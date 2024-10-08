@@ -16290,12 +16290,11 @@ a:hover, button:hover {
   }
 }
 /* Additionally hide cursor on touch devices */
-@media (pointer: coarse) {
+@media (hover: none) and (pointer: coarse) {
   .cursor {
-    display: none; /* Hide custom cursor on touch devices */
+    display: none !important; /* Force-hide custom cursor on touch devices */
   }
 }
-
 
 .animate-dot {
   opacity: 0;
