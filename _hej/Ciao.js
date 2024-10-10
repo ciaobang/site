@@ -9855,8 +9855,8 @@ if (isTouchDevice) {
 
   gsap.set(".rotate", {transformOrigin: "44.6% 48.2%"});
   const rotateTween = gsap.to(".rotate", {duration: 0.1, paused: true});
-  const xTo = gsap.quickTo(cursor, "x", {duration: 0.1});
-  const yTo = gsap.quickTo(cursor, "y", {duration: 0.1});
+  const xTo = gsap.quickTo(cursor, "x", {duration: 0.05});
+  const yTo = gsap.quickTo(cursor, "y", {duration: 0.05});
   const RAD2DEG = 180 / Math.PI;
   let x_cursor = 0, y_cursor = 0;
 
