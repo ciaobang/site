@@ -9325,6 +9325,7 @@ main {
   .c--nav-a__ft-items__wrapper {
     align-items: flex-start;
     max-height: none;
+    gap: -0.5em;
   }
 }
 .c--nav-a__ft-items__wrapper__item {
@@ -9335,6 +9336,7 @@ main {
   .c--nav-a__ft-items__wrapper__item {
     width: 100%;
     gap: 1rem;
+    margin-block: -0.2em;
   }
 }
 .c--nav-a__ft-items__wrapper__item__link {
@@ -11675,7 +11677,6 @@ main {
 }
 .c--nav-a__ft-items__wrapper__item--second {
   display: flex;              /* Use flexbox for alignment */
-  align-items: center;        /* Vertically center items */
 }
 .c--nav-a__ft-items__wrapper__item--second .svg-icon__menu {
   margin-left: 10px;
