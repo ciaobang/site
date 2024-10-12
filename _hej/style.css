@@ -11685,40 +11685,40 @@ main {
   background-position: center;
 }
 .svg-icon__services {
-  background-image: url('/svg/9_bw.svg'); /* Default grayscale SVG */
+  background-image: url('https://cdn.ciaobang.com/svg/9_bw.svg'); /* Default grayscale SVG */
 }
 .c--nav-a__ft-items__wrapper__item--second:hover .svg-icon__services {
-  background-image: url('/svg/9.svg'); /* Change to colored SVG on hover */
+  background-image: url('https://cdn.ciaobang.com/svg/9.svg'); /* Change to colored SVG on hover */
 }
 .svg-icon__work {
-  background-image: url('/svg/3_bw.svg'); /* Default grayscale SVG */
+  background-image: url('https://cdn.ciaobang.com/svg/3_bw.svg'); /* Default grayscale SVG */
 }
 .c--nav-a__ft-items__wrapper__item--second:hover .svg-icon__work {
-  background-image: url('/svg/3.svg'); /* Change to colored SVG on hover */
+  background-image: url('https://cdn.ciaobang.com/svg/3.svg'); /* Change to colored SVG on hover */
 }
 .svg-icon__company {
-  background-image: url('/svg/10_bw.svg'); /* Default grayscale SVG */
+  background-image: url('https://cdn.ciaobang.com/svg/10_bw.svg'); /* Default grayscale SVG */
 }
 .c--nav-a__ft-items__wrapper__item--second:hover .svg-icon__company {
-  background-image: url('/svg/10.svg'); /* Change to colored SVG on hover */
+  background-image: url('https://cdn.ciaobang.com/svg/10.svg'); /* Change to colored SVG on hover */
 }
 .svg-icon__industries {
-  background-image: url('/svg/7_bw.svg'); /* Default grayscale SVG */
+  background-image: url('https://cdn.ciaobang.com/svg/7_bw.svg'); /* Default grayscale SVG */
 }
 .c--nav-a__ft-items__wrapper__item--second:hover .svg-icon__industries {
-  background-image: url('/svg/7.svg'); /* Change to colored SVG on hover */
+  background-image: url('https://cdn.ciaobang.com/svg/7.svg'); /* Change to colored SVG on hover */
 }
 .svg-icon__platform {
-  background-image: url('/svg/12_bw.svg'); /* Default grayscale SVG */
+  background-image: url('https://cdn.ciaobang.com/svg/12_bw.svg'); /* Default grayscale SVG */
 }
 .c--nav-a__ft-items__wrapper__item--second:hover .svg-icon__platform {
-  background-image: url('/svg/12.svg'); /* Change to colored SVG on hover */
+  background-image: url('https://cdn.ciaobang.com/svg/12.svg'); /* Change to colored SVG on hover */
 }
 .svg-icon__contact {
-  background-image: url('/svg/2_bw.svg'); /* Default grayscale SVG */
+  background-image: url('https://cdn.ciaobang.com/svg/2_bw.svg'); /* Default grayscale SVG */
 }
 .c--nav-a__ft-items__wrapper__item--second:hover .svg-icon__contact {
-  background-image: url('/svg/2.svg'); /* Change to colored SVG on hover */
+  background-image: url('https://cdn.ciaobang.com/svg/2.svg'); /* Change to colored SVG on hover */
 }
 @media all and (max-width: 810px) {
   .svg-icon__menu {
