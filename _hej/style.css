@@ -9270,11 +9270,6 @@ main {
   pointer-events: none;
   overflow: hidden;
 }
-@media all and (max-width: 580px) {
-  .c--nav-a {
-    overflow: auto;
-  }
-}
 .c--nav-a__bg-items {
   position: absolute;
   width: 100%;
