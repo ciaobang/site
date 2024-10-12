@@ -2300,6 +2300,7 @@ class Eu {
           onStart: () => {
             (this.canPlay = !1),
               Si(this.DOM.burger, this.activeClasses.burger),
+              document.body.classList.remove('nav-active'); // Unlock scrolling
               (this.DOM.nav.style.pointerEvents = "none");
           },
           onComplete: () => {
@@ -2321,6 +2322,7 @@ class Eu {
         onStart: () => {
           (this.canPlay = !1),
             wi(this.DOM.burger, this.activeClasses.burger),
+            document.body.classList.add('nav-active'); // Lock scrolling
             $e(this.DOM.nav, [{ pointerEvents: "all" }]);
         },
         onComplete: () => {

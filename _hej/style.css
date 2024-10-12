@@ -23,6 +23,9 @@ b,
 strong {
   font-weight: 700;
 }
+body.nav-active {
+  overflow: hidden;
+}
 section:not(:first-child) {
   margin-top: -1px;
 }
